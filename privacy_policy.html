@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Heat Watch</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 2px solid #dd6b20;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #2c5282;
+            margin-top: 30px;
+        }
+        .update-date {
+            text-align: center;
+            font-size: 0.9em;
+            color: #718096;
+            margin-bottom: 40px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            color: #c53030;
+            font-weight: bold;
+        }
+        .callout {
+            background: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 16px 20px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #a0aec0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🔥 Heat Watch Privacy Policy</h1>
+    <p class="update-date">Effective Date: October 9, 2026</p>
+
+    <div class="callout">
+        <strong>In short:</strong> Heat Watch collects no personal data and shows no ads. Its
+        only network connection is a once-a-day check for a newer version, which you can
+        switch off. Everything it measures and stores stays on your Mac.
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>OsiVibeCode LLC, an Arizona limited liability company, publishes Heat Watch, a free
+       macOS menu bar utility that shows how hot and busy your Mac is, explains which app is
+       responsible, and alerts you when something keeps it working hard. This policy explains
+       what the app reads, what it stores and what it does not. There is no account, no
+       sign-in, no analytics, no advertising and no crash reporting.</p>
+
+    <h2>2. What Heat Watch Reads</h2>
+    <p>To show its figures, Heat Watch reads the following on your Mac, every few seconds,
+       while it runs:</p>
+    <ul>
+        <li><strong>Running processes:</strong> the name of each app and process, and how much
+            CPU, GPU, memory and power it uses. It never reads what an app is doing, its
+            windows or its files.</li>
+        <li><strong>Hardware sensors:</strong> chip temperature, overall GPU use, memory
+            pressure, battery charge and health, and macOS's heat state.</li>
+        <li><strong>Network and disk totals:</strong> how fast the Mac is downloading and
+            uploading overall, and how much free disk space is left. Never what is sent, to
+            whom, or which files are on the disk.</li>
+    </ul>
+
+    <h2>3. Data Stored Locally</h2>
+    <p>Heat Watch keeps what it stores on your Mac. None of it is ever transmitted:</p>
+    <ul>
+        <li><strong>Settings:</strong> units, alert thresholds, what the menu bar shows and
+            similar choices, in <code>~/Library/Preferences/com.osivibecode.heatwatch.plist</code>.</li>
+        <li><strong>History:</strong> up to 24 hours of the readings above, so the charts
+            survive a restart.</li>
+        <li><strong>Logs:</strong> the alerts Heat Watch showed you, the heat log, and the
+            busiest apps' recent use, including their names.</li>
+    </ul>
+    <p>History and logs live in <code>~/Library/Application Support/HeatWatch/</code>.
+       Older readings are discarded automatically.</p>
+    <p>If you choose Export History as CSV…, Heat Watch writes a file to the place you pick.
+       What you do with that file is up to you.</p>
+
+    <h2>4. Update Checks</h2>
+    <p>Heat Watch checks for updates using the open-source
+       <a href="https://sparkle-project.org">Sparkle</a> framework. About once a day it
+       downloads a small list of available versions from <code>osivibecode.github.io</code>,
+       and, if you choose to install an update, the new version from <code>github.com</code>.</p>
+    <ul>
+        <li><strong>What is sent:</strong> an ordinary web request, which names the app and
+            its version. No identifier, no system profile and none of the readings above is
+            included.</li>
+        <li><strong>Who sees it:</strong> GitHub, which hosts the files, receives your IP
+            address as it would for any download. We do not receive or keep these logs.</li>
+        <li><strong>Turning it off:</strong> Heat Watch ▸ Settings ▸ "Check for updates
+            automatically". With it off, Heat Watch connects only when you choose Check for
+            Updates….</li>
+    </ul>
+
+    <h2>5. Third-Party Services</h2>
+    <p>Heat Watch contains no advertising SDK, no analytics library and no cloud service.
+       The only outside service involved is GitHub, which hosts the updates (section 4).</p>
+
+    <h2>6. Permissions</h2>
+    <ul>
+        <li><strong>Notifications</strong> — optional, for alerts. If macOS doesn't allow
+            them, Heat Watch shows its own banner instead.</li>
+        <li><strong>Open at login</strong> — optional. Managed by macOS in System Settings ▸
+            General ▸ Login Items.</li>
+    </ul>
+    <p>Heat Watch does not ask for Accessibility, Screen Recording, Full Disk Access, your
+       location, camera, microphone, contacts or files.</p>
+
+    <h2>7. Quitting Apps</h2>
+    <p>Heat Watch can quit an app or stop Gradle daemons, but only when you choose to and
+       after you confirm. It never ends anything on its own, and never offers to quit parts
+       of macOS.</p>
+
+    <h2>8. Data Retention &amp; Deletion</h2>
+    <p>Because everything is stored on your Mac, we have no access to it and nothing to
+       delete on our side. To remove it all:</p>
+    <ul>
+        <li>Delete <code>~/Library/Application Support/HeatWatch/</code> and
+            <code>~/Library/Preferences/com.osivibecode.heatwatch.plist</code>.</li>
+        <li>Move Heat Watch to the Trash.</li>
+    </ul>
+
+    <h2>9. Children's Privacy</h2>
+    <p>Heat Watch is a general-purpose desktop utility and collects no data from anyone,
+       including children under 13.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>If a future version of Heat Watch ever collects anything, this page will be updated
+       before that version ships, and the change will be described in the app's release
+       notes.</p>
+
+    <h2>11. Contact Information</h2>
+    <p>Questions about privacy in Heat Watch:<br>
+       OsiVibeCode LLC, Arizona, United States<br>
+       Email: <a href="mailto:osi.vibe.code@gmail.com">osi.vibe.code@gmail.com</a></p>
+
+    <div class="footer">
+        &copy; 2026 OsiVibeCode LLC. All rights reserved.
+    </div>
+</div>
+</body>
+</html>
