@@ -3,13 +3,13 @@
     <channel>
         <title>Heat Watch</title>
         <item>
-            <title>1.0.5</title>
-            <pubDate>Sat, 24 Oct 2026 12:04:34 +0300</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>1.0.7</title>
+            <pubDate>Sat, 14 Nov 2026 11:06:05 -0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/osivibecode/heatwatch-releases/releases/download/v1.0.5/HeatWatch.dmg" length="2404356" type="application/octet-stream" sparkle:edSignature="MMToBpd4Olnxt9DNalRORFxM+GAT/LYI+n5MIY5kjpdSxHz+dNtu0GvG351TorEJBgnOftWUMNDqwLqWFNapDA=="/>
+            <enclosure url="https://github.com/osivibecode/heatwatch-releases/releases/download/v1.0.7/HeatWatch.dmg" length="2562302" type="application/octet-stream" sparkle:edSignature="5rZ9HiQl/xBD6IPkU5dS+iSpqynbJS1W9izZIdAYN8tcb15F7hGgorMP6Tpgb2NJ8Yhmcw1JFm0ukSCTiufUCg=="/>
         </item>
     </channel>
 </rss>
